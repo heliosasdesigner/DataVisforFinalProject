@@ -1,9 +1,6 @@
-name: dataVISUAL
+name: my_data_visualization_project  
 channels:
-- conda-forge
+  - conda-forge  
 dependencies:
-- matplotlib-base
-- pandas
-- ipywidgets
-- jupyterlab>=3.1
-- voila>=0.2.11
+  - pandas  # For data manipulation
+  - altair  # For data visualization
